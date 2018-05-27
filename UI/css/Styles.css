@@ -1,0 +1,265 @@
+body{
+    background-color:#000000;
+	background-attachment:fixed;
+	background:url(../images/background-img.jpg) no-repeat left fixed;
+    font-family:Arial;
+	overflow:hidden;
+    padding:0px;
+    margin: 0px;
+}
+#container{
+	width:100%;
+	height:auto;
+}
+a{
+	text-decoration:none;
+}
+th a{
+	color:#000033;
+}
+#login-form{
+    width: 35%;
+    height: auto;
+    padding: 20px;
+    margin: 3% auto;
+	background-color:#F0F0F0;
+	border-radius:2em;
+	opacity:0.95;
+}
+#login-form table{
+	margin:5px auto;
+	width:90%;
+}
+#login-form table span{
+    color:#FF3333;
+    font-style: italic;
+    font-size: 16px;
+	margin-top:0px;
+}
+.inputs{
+    font-size: 1em;
+    width:90%;
+    border:1px;
+    border-style: solid;
+    padding:2% 5%;
+    border-radius: 0.5em;
+    }
+.btnsubmit{
+	font-size: 1em;
+    width:100%;
+	background-color:#004F27;
+    border-style: solid;
+    padding:11px 5%;
+    border-radius: 0.5em;
+	color:#FFFFFF;
+	cursor:pointer;
+}
+.btnsubmit:hover{
+	background-color:#007900;
+	transition:0.2s;
+}
+#img_account{
+    text-align:center;
+}
+#header{
+	background-color:#005F8C;
+	width:100%;
+	text-align:center;
+	border-bottom:solid 3px #040404;
+	height:3%;
+	float:left;
+}
+#header p{
+	color:#FFFFFF;
+	font-size:40px;
+}
+#logo{
+	margin-top:5px;
+	height:100px;
+	width:225px;
+	float:left;
+}
+#left_nav{
+	background-color:#387272;
+	width:30%;
+	height:100%;
+	float:left;
+}
+#section{
+	width:100%;
+	background-color:#C8C8C8;
+	float:left;
+}
+#right_nav,#filtered_contents,#post_request{
+	width:70%;
+	height:auto;
+	float:left;
+}
+#filtered_contents,#post_request{
+display:none;
+}
+.dashboard{
+	font-family:Blackadder ITC;
+	font-size:40px;
+	background-color:#313131;
+	color:#004080;
+	padding:0.8% 0px;
+	text-align:center;
+	font-weight:bold;
+	border-bottom:solid #434343 1px;
+}
+.btn_dashboard{
+	margin:0px;
+	font-family:Arial;
+	font-size:20px;
+	color:#00002D;
+	padding:5% 5%;
+	border-bottom:solid #434343 1px;
+}
+.filter_requests{
+	margin:0px;
+	font-family:Arial;
+	font-size:15px;
+	color:#00002D;
+	font-weight:bold;
+	padding:5% 5%;
+	border-bottom:solid #434343 1px;
+
+}
+.btn_dashboard:hover{
+	background-color:#59A474;
+	cursor:pointer;
+}
+
+td span{
+	padding: 1.5%;
+	vertical-align:text-top;
+	border-radius: 1em;
+}
+.btn_dropdown{
+	display:none;
+	position:absolute;
+	background-color:#B2B2B2;
+	width:30%;
+	z-index:3;
+}
+.btn_space{
+	padding:5% 0px;
+	overflow:hidden;
+}
+.right_nav_top{
+	width:100%;
+	background-color:#4F4F4F;
+	margin-bottom:0.5%;
+	float:left;
+}
+.search{
+	margin:2% 2%;
+	width:30%;
+	padding:1% 2%;
+	border-radius:0.5em;
+	border:solid 1px;
+	font-size:1em;
+	float:left;
+	}
+.btn_search{
+	padding:1% 3%;
+	float:left;
+	margin-top:2%;
+	margin-bottom:2%;
+	font-size:14px;
+	background-color:#007D7D;
+	border-radius:1em;
+	border:hidden;
+}
+.btn_search:hover{
+	background-color:#00E171;
+	cursor:pointer;
+}
+.right_nav_content{
+	width:40%;
+	margin:4% auto;
+	font-family:serif;
+	text-align:center;
+}
+ol{
+ text-align:left;
+ font-size:18px;
+}
+.btn_space img{
+	height:100%;
+	width:100%;
+	margin:0% auto;
+}
+#footer{
+	background-color:#000000;
+	text-align:center;
+	width:100%;
+	float:left;
+}
+#footer p{
+	margin:2% auto;
+	font-size:16px;
+	color:#FFFFFF;
+}
+p a{
+	text-decoration:none;
+	color:#FF3300;
+}
+#contents_tb{
+	width:95%;
+	margin:0% auto;
+	background-color:#CCCCCC;
+}
+#contents_tb tr{
+	font-size:14px;
+}
+#contents_tb th{
+	padding:5% auto;
+	background-color:#666666;
+}
+#contents_tb tr:nth-child(even){
+	background-color:#ACACAC;
+}
+#contents_tb tr:nth-child(odd){
+	background-color:#FFFFFF;
+}
+.filter_requests table{
+	width:100%;
+}
+.btn_filter{
+	background-color:#006633;
+	border-radius:2em;
+	width:100%;
+	border:hidden;
+	font-weight:bold;
+	padding:3% 20%;
+	cursor:pointer;
+}
+.btn_filter:hover{
+	background-color:#00D76B;
+	transition:0.2s;
+}
+#request_form{
+	width:50%;
+	height:auto;
+	margin:5% auto;
+}
+fieldset{
+	border-radius:2em;
+}
+legend{
+	font-size:36px;
+	color:#7979FF;
+	font-weight:bold;
+}
+textarea{
+font-size:16px;
+}
+#pg_title{
+	font-size: 2em;
+	text-align: center; 
+	color: forestgreen;
+	font-weight:bold;
+	margin:2% auto;
+}
