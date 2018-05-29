@@ -100,22 +100,3 @@ function getCurrentYear(){
     var d = new Date();
     return d.getFullYear();
 }
-
-//Display filter buttons
-function getFilter(){
-    $(".btn_dropdown").slideToggle("slow");						   
-}
-
-//Display requests
-function requestData(){
-    $("#filtered_contents").show();
-    $("#post_request").hide();
-    $("#right_nav").hide();
-}
-
-//Post requests
-function postRequest(){
-    $("#post_request").show();
-    $("#filtered_contents").hide();
-    $("#right_nav").hide();
-}
