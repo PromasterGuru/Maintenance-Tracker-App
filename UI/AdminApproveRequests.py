@@ -4,7 +4,7 @@
 +client = Namespace('users')
 +
 +
-+class AdminApproveRequests(TestCase):
++class AdminResolveRequests(TestCase):
 +    def get(self,user_id,request):
 +        pass
 +
