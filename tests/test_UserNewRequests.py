@@ -13,9 +13,6 @@ class TestCreateNewRequest(unittest.TestCase):
     def test__missing_description(self):
         result = createRequest("request title","","1","29 may 2018")
         self.assertEqual(result,'Please enter a brief description for your request')
-
-
-    
     
 
 if __name__ == '__main__':
