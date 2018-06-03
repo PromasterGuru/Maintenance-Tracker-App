@@ -1,14 +1,14 @@
-#Maintenance Tracker App
+# Maintenance Tracker App
 
 This is a web based application that allows Admin and clients to interact. 
 Clients post their maintenance or repair requests while Admin approves or rejects them.
 
 # installation procedure.
-  a. Ensure you have **python 3.6.2**,**pip**, and **virtualenv** are installed on your local machine.
-  b. Ensure you have Postman since it might bee needed to test the API
-  c. Clone the project to your local machine.
-  d. Navigate to the project folder.
-  e. Create a virtual environment using `virtualenv venv` on your command line 
+  1. Ensure you have **python 3.6.2**,**pip**, and **virtualenv** are installed on your local machine.
+  2. Ensure you have Postman since it might bee needed to test the API.
+  3. Clone the project to your local machine.
+  4. Navigate to the project folder.
+  5. Create a virtual environment using `virtualenv venv` on your command line. 
 
     ```
     export SECRET="random_key"
